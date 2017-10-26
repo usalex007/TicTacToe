@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.tictactoe.MainActivity">
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="480dp"
+        android:columnCount="3"
+        android:rowCount="6"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/Tic"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:fontFamily="monospace"
+            android:paddingTop="25dp"
+            android:text="Tic"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Tac"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:fontFamily="monospace"
+            android:paddingTop="25dp"
+            android:text="Tac"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Toe"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:fontFamily="monospace"
+            android:paddingTop="25dp"
+            android:text="Toe"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="120dp"
+            android:layout_column="1"
+            android:layout_marginBottom="150dp"
+            android:layout_row="5"
+            android:text="Play"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
